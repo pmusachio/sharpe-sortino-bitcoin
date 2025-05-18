@@ -9,6 +9,30 @@ Analyze and compare the performance of Sharpe and Sortino Ratio using Bitcoin da
 
 </br>
 
+## About Metrics
+- Sharpe ratio indicates how well an investment performs compared to a risk-free investment, taking into account the additional level of risk involved in holding the stock investment
+
+
+$$
+\Huge
+\textbf{Sharpe ratio} = \frac{\text{return of portfolio (or stock)} - \text{risk-free rate}}{\text{standard deviation of returns}}
+$$
+
+</br>
+
+- Sortino ratio is a variation of the Sharpe ratio that considers only downside risk
+
+$$
+\Huge
+\textbf{Sortino ratio} = \frac{\text{return of portfolio (or stock)} - \text{risk-free rate}}{\text{standard deviation of the negative returns}}
+$$
+
+</br>
+
+- Sharpe ratio is used more to evaluate low-volatility investment portfolios, and the Sortino variation is used more to evaluate high-volatility portfolios (bull markets)
+
+</br>
+
 ## Data Preparation
 - Calculating Sharpe and Sortino Ratio using QuantStats
 
