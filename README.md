@@ -57,12 +57,12 @@ $$
 - Logarithmic transformation is useful for smoothing out extreme percentage changes, making it easier to see long-term trends and reducing distortion caused by outliers. In the chart, prices on a logarithmic scale show a more linear decline, which helps to interpret compound returns
 - "Sharpe" effectively penalizes all volatility (positive and negative), which can undervalue strategies in volatile assets like Bitcoin, where positive swings are frequent. It is more common in traditional portfolios (stocks, fixed income)
 - "Sortino" focuses only on downside risk (negative volatility), being more suitable for assets with high asymmetric volatility (such as Bitcoin) or strategies that seek to maximize gains in "bull markets"
-- Sortino is not exclusive to "bull markets", but rather to any context where positive volatility is not a risk (hedge funds, cryptocurrencies)
+- "Sortino" is not exclusive to "bull markets", but rather to any context where positive volatility is not a risk (hedge funds, cryptocurrencies)
 - “Sharpe” uses the total standard deviation in the denominator, which can distort the assessment if positive returns are too dispersed. For Bitcoin, where large gains are common, this can lead to an artificially low ratio even if the strategy is profitable
-- "Sortino is more focused on relevant risk (losses), which makes it preferable for investors averse to sudden drops
+- "Sortino" is more focused on relevant risk (losses), which makes it preferable for investors averse to sudden drops
 - However, "better vision" depends on the objective:
   - If the concern is to avoid losses (conservative funds), "Sortino" is ideal
-  - If total volatility is critical (leverage), Sharpe still has value
+  - If total volatility is critical (leverage), "Sharpe" still has value
 
 </br>
 
